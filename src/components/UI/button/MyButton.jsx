@@ -1,10 +1,10 @@
 import React from 'react';
 import classes from './MyButton.module.css'
 
-const MyButton = (props) => {
+const MyButton = ({children, ...props}) => {   // такая конструкция позволяет передавать другие параметры через компонент button
     return (
-        <button className={classes.myBtn}>
-            {props.children}
+        <button {...props} className={classes.myBtn}>
+            {children}
         </button>
     );
 };

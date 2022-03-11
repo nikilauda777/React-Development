@@ -1,0 +1,11 @@
+.myInput{
+    margin: 5px 0;
+    width: 100%;
+    font-size: 14px;
+    background-color: aquamarine;
+    padding: 5px 15px;
+    border: 1px solid black;
+    cursor: pointer;
+
+
+}
